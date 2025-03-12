@@ -217,7 +217,7 @@ h2, h3 {
   gap: 10px;
 }
 
-.images img a {
+.images a {
   width: 13%;
   height: 100%;
   object-fit: cover;
@@ -226,7 +226,7 @@ h2, h3 {
   transition: all ease-in-out 0.5s;
 }
 
-.images img a:hover {
+.images a:hover {
   width: 25%;
 }
 
