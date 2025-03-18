@@ -44,7 +44,7 @@ h2, h3 {
   font-size: 1.75em;
   text-transform: uppercase;
   text-align: center;
-  margin: 40px 0;
+  margin: 30px 0;
   user-select: none;
 }
 
@@ -63,7 +63,7 @@ h2, h3 {
   display: block;
   width: 100%;
   height: 100%;
-  line-height: 60px;
+  line-height: 50px;
   padding-left: 40px;
 }
 
@@ -81,7 +81,7 @@ h2, h3 {
   display: block;
   text-transform: capitalize;
   color: #32292F;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin: 40px 0;
   text-decoration: none;
 }
@@ -128,6 +128,7 @@ h2, h3 {
 .sidebar ul li a.active{
   background-color: #70ABAF;
   color: #F0F7F4;
+  font-weight: bold;
   border-left: 8px solid #32292F;
 }
 
@@ -205,8 +206,9 @@ img {
   float: left;
   width: 300px;
   height: 300px;
+  box-shadow: 0 0 5px 1px #32292F;
   border-radius: 10px;
-  border: 2px solid #32292F;
+  border: 2px solid #F0F7F4;
 }
 
 .wrapper {
@@ -269,12 +271,12 @@ ol.e {
   font-weight: bold;
   display: inline-block;
   padding: 5px;
-  border-radius: 7px;
+  border: 3px outset #32292F;
+  border-radius: 20px;
   transition: 0.3s;
   text-decoration: none;
   text-align: center;
-  width: 159px;
-  box-shadow: 0 3px 5px #32292F;
+  width: 153px;
   margin: 180px 10px 0 16px;
 }
 
@@ -288,7 +290,7 @@ ol.e {
   color: #32292F;
   font-size: 1.125em;
   width: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: block;
   margin: 0 40px 0 auto;
 }
@@ -307,7 +309,7 @@ ol.e {
   color: #F0F7F4;
   font-size: 1.125em;
   width: 200px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 0 490px 0;
 }
 
