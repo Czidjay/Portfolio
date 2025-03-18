@@ -173,14 +173,22 @@ h3 {
   overflow: hidden;
 }
 
+.vid-container {
+  width: 700px;
+  height: 394px;
+  margin: 15px 0 0 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 #quote {
   background-color: #CADAD7; 
   width: 640px; 
-  margin: 580px 0 0 485px; 
+  margin: 575px 0 0 485px; 
 }
 
 img {
-  margin: 200px 0 0 1170px;
+  margin: 195px 0 0 1170px;
   position: absolute;
   z-index: 1;
 }
