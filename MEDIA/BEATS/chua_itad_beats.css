@@ -247,7 +247,6 @@ img {
   height: 500px;
   display: flex;
   align-items: center;
-  transition: 1s;
 }
 
 .player .imgbox img {
@@ -255,10 +254,6 @@ img {
   height: 220px;
   box-shadow: 0 5px 10px #32292F;
   object-fit: cover;
-}
-
-.imgbox:hover {
-  transform: scale(1.15);
 }
 
 .player audio {
