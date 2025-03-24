@@ -255,7 +255,6 @@ img {
   height: 550px;
   display: flex;
   align-items: center;
-  transition: 1s;
 }
 
 .player .imgbox img {
@@ -263,10 +262,6 @@ img {
   height: 290px;
   box-shadow: 0 5px 10px #32292F;
   object-fit: cover;
-}
-
-.imgbox:hover {
-  transform: scale(1.15);
 }
 
 iframe {
