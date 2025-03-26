@@ -17,10 +17,6 @@ h2, h3 {
   font-size: 1.563em;
 }
 
-#indention {
-  text-indent: 50px;
-}
-
 #nav ul {
   margin: 0;
   padding: 0;
@@ -359,7 +355,12 @@ iframe {
 #btn-home {
   background-color: #705D56;
   color: #F0F7F4;
-  margin: 0 490px 0;
+  margin: 0 0 0 1069px;
+  width: 50px;
+}
+
+#btn-home i {
+  margin-right: 0;
 }
 
 #btn-home:hover{
