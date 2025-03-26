@@ -188,7 +188,7 @@ h3 {
 }
 
 img {
-  margin: 195px 0 0 1170px;
+  margin: 170px 0 0 1180px;
   position: absolute;
   z-index: 1;
 }
@@ -204,8 +204,8 @@ img {
 }
 
 .profile-image {
-  width: 510px;
-  height: 530px;
+  width: 500px;
+  height: 520px;
   border-radius: 15px;
   object-fit: cover;
   margin-right: 20px;
