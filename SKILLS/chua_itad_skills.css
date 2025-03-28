@@ -221,20 +221,41 @@ h2, h3 {
 .box {
   width: 250px;
   margin: -50px 10px;
-  box-shadow: 0 0 5px 1px #32292F;
-  border: 3px solid #F0F7F4;
-  border-radius: 10px;
-  transition: 1s;
 }
 
 .box img {
   display: block;
   width: 100%;
-  border-radius: 5px;
+  box-shadow: 0 0 5px 2px #32292F;
+  border-radius: 10px;
+  opacity: 0.75;
 }
 
-.box:hover {
-  transform: scale(1.3);
+.box img:hover {
+  box-shadow: 0 0 5px 2px #32292F;
+  border: 5px inset #F0F7F4;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.skillbox {
+  width: 250px;
+  margin: -50px 10px;
+}
+
+.skillbox img {
+  display: block;
+  width: 100%;
+  box-shadow: 0 0 5px 2px #32292F;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+
+.skillbox img:hover {
+  box-shadow: 0 0 5px 2px #32292F;
+  border: 5px inset #CADAD7;
+  border-radius: 0;
+  opacity: 1;
 }
 
 .skills-img {
