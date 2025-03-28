@@ -263,8 +263,19 @@ img {
 .player .imgbox img {
   width: 268px;
   height: 220px;
+  border-radius: 30px;
   box-shadow: 0 5px 10px #32292F;
   object-fit: cover;
+  opacity: 0.75;
+}
+
+.player .imgbox img:hover {
+  border: 2px solid #F0F7F4;
+  box-shadow: 0 5px 10px #70ABAF;
+  object-fit: cover;
+  border-radius: 0;
+  opacity: 1;
+  transition: 0.2s;
 }
 
 .place-info {
@@ -308,8 +319,19 @@ img {
 .other-player .imgbox img {
   width: 220px;
   height: 220px;
+  border-radius: 30px;
   box-shadow: 0 5px 10px #32292F;
   object-fit: cover;
+  opacity: 0.75;
+}
+
+.other-player .imgbox img:hover {
+  border: 2px solid #F0F7F4;
+  box-shadow: 0 5px 10px #70ABAF;
+  object-fit: cover;
+  border-radius: 0;
+  opacity: 1;
+  transition: 0.2s;
 }
 
 .place-nav {
