@@ -17,6 +17,10 @@ h2, h3 {
   font-size: 1.563em;
 }
 
+#indention {
+  text-indent: 50px;
+}
+
 #nav ul {
   margin: 0;
   padding: 0;
