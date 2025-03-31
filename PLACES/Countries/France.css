@@ -280,6 +280,7 @@ img {
 
 .place-info {
   margin: 35px 40px 0 40px;
+  text-align: left;
 }
 
 .place-info h3 {
